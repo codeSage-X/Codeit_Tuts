@@ -41,3 +41,51 @@
           </a>
         </li>
       </ul>
+
+
+      :root {
+    --public-transition-hover-fast: .1s ease;
+    --public-transition-hover-fast-cta: .16s ease;
+    --public-transition-hover-blur-cta: .3s ease;
+    --public-transition-hover-medium: .4s ease;
+    --public-transition-hover-long: .8s ease;
+    --public-blue-text-10: #69f5ff;
+    --public-blue-text-20: #00e6ff;
+    --public-blue-text-50: rgb(0, 168, 219);
+    --public-blue-text-60: #00aeda;
+    --public-blue-text-neutral: #1b82bc;
+    --public-blue-text-bright-light: #96f8ff;
+    --public-blue-text-bright-dark: #00a3cc;
+    --public-blue-text-secondary: #69b6dd;
+    --public-blue-bg-lighter: #fbfeff;
+    --public-blue-bg-light: #f1f4f8;
+    --public-blue-bg-medium: #084d66;
+    --public-blue-bg-dark: rgba(8, 77, 102, .2);
+    --public-pink-text-mid: #fe4c77;
+    --public-pink-text-10: #ff2e9f;
+    --public-pink-bg-dark: #470f4a;
+    --public-pink-bg-dark: rgba(71, 15, 74, .3);
+    --public-yellow-text-mid: #ffec3e;
+    --public-orange-text-mid: #ff6d63;
+    --public-pink-text-light: #d917a3;
+    --public-pink-text-medium: #d900a5;
+    --public-violet-text-light: #8a19a9;
+    --public-violet-text-medium: #761fac;
+    --public-button-background: rgb(39, 42, 48, .6);
+    --public-bg-dark-accent: rgb(0, 0, 0, .32);
+    --public-bg-dark-accent-hex: #1c1f25;
+    --public-bg-dark-accent-footer: #121416;
+
+element.style {
+}
+._NavItem_1odvg_139 {
+    padding: 12px 24px;
+    color: var(--public-text-50);
+    font-family: Inter,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: color var(--public-transition-hover-fast);
+    cursor: pointer;
+}
