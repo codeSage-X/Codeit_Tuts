@@ -94,22 +94,15 @@ h4 {
   margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
 }
-h1 {
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.25rem;
-}
-h4 {
-  font-size: 0.875rem;
-}
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-wh);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.2;
 }
+
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -162,7 +155,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-black-primary);
+  background: var(--clr-black-secondary);
   box-shadow: var(--light-shadow);
 }
 .nav-header {
@@ -262,7 +255,7 @@ Sidebar
   color: var(--clr-primary-5);
   transition: var(--transition);
   cursor: pointer;
-  animation: bounce 2s ease-in-out infinite;
+  /* animation: bounce 2s ease-in-out infinite; */
 }
 
 /* font-size: 1.5rem;
@@ -336,10 +329,42 @@ cursor: pointer; */
 .show-sidebar {
   transform: translate(0);
 }
+
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 400px;
   }
 }
 
+@media screen and (max-width: 676px){
+  .nav-link {
+    display: none;
+   }
+   p {
+    font-size: 1rem;
+   }
+}
+
+/* banner */
+.banner {
+  background-color: #1C1F25;
+}
+.banner .holder {
+  background-color: #252525;
+}
+.circle {
+  background-color: #50eaf5;
+  /* animation: bounce 2s ease-in-out infinite; */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #373af7;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
