@@ -105,7 +105,7 @@ p {
 
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -368,3 +368,10 @@ cursor: pointer; */
   background: transparent;
 }
 
+@media screen and (max-width: 640px) {
+
+  .mini-p {
+    font-size: 8px;
+  }  
+
+}
