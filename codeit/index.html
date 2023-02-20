@@ -6,7 +6,7 @@
     <title>codeit!</title>
     <!-- font-awesome -->
     <link
-      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- styles -->
@@ -101,165 +101,206 @@
               </div> 
            </div>
            <!--courses-->
-          <div class="courses flex justify-center items-center h-[200vh] md:h-[100vh] lg:h-[100vh] w-full border-4">
-            <div class="w-[90%] h-[80%] border-4 border-blue-400">
-              <h1>All Courses</h1>
-               <div class="grid w-full h-full bg-green-400 flex items-center justify-center">
+          <div class="courses flex justify-center items-center h-[220vh] md:h-[100vh] lg:h-[100vh] w-full">
+            <div class="w-[90%] md:w-[95%] h-[80%] ">
+              <div class="bg-blue-400 flex justify-center w-full ">  
+                <div class="w-[90%]">
+                  <h1 class="text-3xl" >All Courses</h1>
+                </div>           
+              </div>
+               <div class="grid w-full h-full flex items-center justify-center">
                 <div class="grid grid-row-3 md:grid-cols-3 lg:grid-cols-3 gap-3 w-full h-full flex py-3 md:items-center lg:items-center">
                   
-                  <!-- <div class="bg-slate-300 h-[26vh] w-[45vw] md:h-[40%] md:w-[24vw] lg:h-[80%] lg:w-[20vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
-                    <div class="bg-black w-full h-[40%] md:h-[40%] lg:h-[40%]  border-lef rounded-bl-3xl rounded-t-3xl ">
-                      <div class="h-16 w-16 md:h-32 md:w-32 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 z-10 mt-[8%] ml-[15%] md:mt-[6%] md:ml-[4%] lg:mt-[5%] lg:ml-[4%]  xl:mt-[7.5%] xl:ml-[5.4%] absolute">
-                        <img src="/img/html.png" class="object-cover "/>
+                  <div class="bg-slate-300 h-[60vh] w-[80vw] md:h-[40%] md:w-[30vw] lg:h-[80%] lg:w-[24vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
+                    <div class="flex justify-center  bg-red-400 w-full">
+                      <div class="h-32 w-32 md:h-28 md:w-28 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 mt-[14vh] md:mt-[5vh] lg:mt-[8vh] xl:mt-[16vh] z-10 absolute">
+                        <img src="/img/html.png" class="object-cover  absolute"/>
                       </div>
                     </div>
-                    <div class="flex justify-center items-center p-2 pt-4 md:p-4 md:pt-5 lg:p-4 lg:pt-5 xl:p-6 xl:pt-10 mini-p md:text-sm lg:text-sm xl:text-sm text-black">
-                      <div class="">
-                            <div class=" py-2 md:py-2 lg:py-4 xl:py-8 text-center ">
+                
+                    <div class="bg-black flex justify-center w-full h-[40%] md:h-[40%] lg:h-[40%]  border-left rounded-bl-3xl rounded-t-3xl ">
+                      <!-- <div class="h-16 w-16 md:h-32 md:w-32 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 z-10 mt-[32%] absolute">
+                        <img src="/img/html.png" class="object-cover  absolute"/>
+                      </div> -->
+                    </div>
+                  
+                    <div class="flex justify-center items-center p-2 pt-4 md:p-4 md:pt-5 lg:p-4 lg:pt-5 xl:p-6 xl:pt-10 mini-p text-sm md:text-sm lg:text-sm xl:text-sm text-black">
+                      <div class="flex flex-col justify-center items-center">
+                            <div class=" py-14 md:py-4 lg:py-4 xl:py-8 text-center ">
                               Web Development for absolute beginners.
                               Learn HTML5 and CSS3 from scratch and build 20+ amazing real world projects.
                             </div>
-                            <div class="flex">
-                              <div class=" w-[50%]">
-                                Difficulty:
+                            <div class="flex w-[90%]">
+                              <div class="rating w-[50%] ">
+                                <i class="fa-solid fa-star border-black text-yellow-600 "></i> 
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
                               </div>
                               <div class="w-[50%] flex justify-end">
-                                Learn more
+                                <a href="#" class=" inline-flex items-center px-2 py-1 text-sm text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                  More
+                                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
                               </div>
                             </div>
                       </div>
                     </div>
                   </div>
-                  <div class="bg-slate-300 h-[26vh] w-[45vw] md:h-[40%] md:w-[24vw] lg:h-[80%] lg:w-[20vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
-                    <div class="bg-black w-full h-[40%] md:h-[40%] lg:h-[40%]  border-lef rounded-bl-3xl rounded-t-3xl ">
-                      <div class="h-16 w-16 md:h-32 md:w-32 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 z-10 mt-[8%] ml-[15%] md:mt-[6%] md:ml-[4%] lg:mt-[5%] lg:ml-[4%]  xl:mt-[7.5%] xl:ml-[5.4%] absolute">
-                        <img src="/img/html.png" class="object-cover "/>
+                  <div class="bg-slate-300 h-[60vh] w-[80vw] md:h-[40%] md:w-[30vw] lg:h-[80%] lg:w-[24vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
+                    <div class="flex justify-center  bg-red-400 w-full">
+                      <div class="h-32 w-32 md:h-28 md:w-28 lg:h-32 lg:w-32 bg-blue-400 rounded-full border-4 mt-[14vh] md:mt-[5vh] lg:mt-[8vh] xl:mt-[16vh] z-10 absolute">
+                        <img src="/img/logo-2582747_1280.png" class="object-cover  absolute"/>
                       </div>
                     </div>
-                    <div class="flex justify-center items-center p-2 pt-4 md:p-4 md:pt-5 lg:p-4 lg:pt-5 xl:p-6 xl:pt-10 mini-p md:text-sm lg:text-sm xl:text-sm text-black">
-                      <div class="">
-                            <div class=" py-2 md:py-2 lg:py-4 xl:py-8 text-center ">
+                
+                    <div class="bg-black flex justify-center w-full h-[40%] md:h-[40%] lg:h-[40%]  border-left rounded-bl-3xl rounded-t-3xl ">
+                      <!-- <div class="h-16 w-16 md:h-32 md:w-32 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 z-10 mt-[32%] absolute">
+                        <img src="/img/html.png" class="object-cover  absolute"/>
+                      </div> -->
+                    </div>
+                  
+                    <div class="flex justify-center items-center p-2 pt-4 md:p-4 md:pt-5 lg:p-4 lg:pt-5 xl:p-6 xl:pt-10 mini-p text-sm md:text-sm lg:text-sm xl:text-sm text-black">
+                      <div class="flex flex-col justify-center items-center">
+                            <div class=" py-14 md:py-4 lg:py-4 xl:py-8 text-center ">
                               Web Development for absolute beginners.
                               Learn HTML5 and CSS3 from scratch and build 20+ amazing real world projects.
                             </div>
-                            <div class="flex">
-                              <div class=" w-[50%]">
-                                Difficulty:
+                            <div class="flex w-[90%]">
+                              <div class="rating w-[50%] ">
+                                <i class="fa-solid fa-star border-black text-yellow-600 "></i> 
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
                               </div>
                               <div class="w-[50%] flex justify-end">
-                                Learn more
+                                <a href="#" class=" inline-flex items-center px-2 py-1 text-sm text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                  More
+                                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
                               </div>
                             </div>
                       </div>
                     </div>
                   </div>
-                  <div class="bg-slate-300 h-[26vh] w-[45vw] md:h-[40%] md:w-[24vw] lg:h-[80%] lg:w-[20vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
-                    <div class="bg-black w-full h-[40%] md:h-[40%] lg:h-[40%]  border-lef rounded-bl-3xl rounded-t-3xl ">
-                      <div class="h-16 w-16 md:h-32 md:w-32 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 z-10 mt-[8%] ml-[15%] md:mt-[6%] md:ml-[4%] lg:mt-[5%] lg:ml-[4%]  xl:mt-[7.5%] xl:ml-[5.4%] absolute">
-                        <img src="/img/html.png" class="object-cover "/>
+                  <div class="bg-slate-300 h-[60vh] w-[80vw] md:h-[40%] md:w-[30vw] lg:h-[80%] lg:w-[24vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
+                    <div class="flex justify-center  bg-red-400 w-full">
+                      <div class="h-32 w-32 md:h-28 md:w-28 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 mt-[14vh] md:mt-[5vh] lg:mt-[8vh] xl:mt-[16vh] z-10 absolute">
+                        <img src="/img/html.png" class="object-cover  absolute"/>
                       </div>
                     </div>
-                    <div class="flex justify-center items-center p-2 pt-4 md:p-4 md:pt-5 lg:p-4 lg:pt-5 xl:p-6 xl:pt-10 mini-p md:text-sm lg:text-sm xl:text-sm text-black">
-                      <div class="">
-                            <div class=" py-2 md:py-2 lg:py-4 xl:py-8 text-center ">
+                
+                    <div class="bg-black flex justify-center w-full h-[40%] md:h-[40%] lg:h-[40%]  border-left rounded-bl-3xl rounded-t-3xl ">
+                      <!-- <div class="h-16 w-16 md:h-32 md:w-32 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 z-10 mt-[32%] absolute">
+                        <img src="/img/html.png" class="object-cover  absolute"/>
+                      </div> -->
+                    </div>
+                  
+                    <div class="flex justify-center items-center p-2 pt-4 md:p-4 md:pt-5 lg:p-4 lg:pt-5 xl:p-6 xl:pt-10 mini-p text-sm md:text-sm lg:text-sm xl:text-sm text-black">
+                      <div class="flex flex-col justify-center items-center">
+                            <div class=" py-14 md:py-4 lg:py-4 xl:py-8 text-center ">
                               Web Development for absolute beginners.
                               Learn HTML5 and CSS3 from scratch and build 20+ amazing real world projects.
                             </div>
-                            <div class="flex">
-                              <div class=" w-[50%]">
-                                Difficulty:
+                            <div class="flex w-[90%]">
+                              <div class="rating w-[50%] ">
+                                <i class="fa-solid fa-star border-black text-yellow-600 "></i> 
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
+                                 <i class="fa-solid fa-star border-black text-yellow-600 "></i>              
                               </div>
                               <div class="w-[50%] flex justify-end">
-                                Learn more
+                                <a href="#" class=" inline-flex items-center px-2 py-1 text-sm text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                  More
+                                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
                               </div>
                             </div>
                       </div>
                     </div>
                   </div>
-                </div> 
-            </div> -->
-            
-<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-  <a href="#">
-      <img class="rounded-t-lg" src="/img/image-1.jpg" alt="" />
-  </a>
-  <div class="p-5">
-      <a href="#">
-          <h5 class=" mb-2 text-2xl md:text-md lg:text-md font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-      </a>
-      <h6 class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</h6>
-      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          Read more
-          <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-      </a>
-  </div>
-</div>
-<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-  <a href="#">
-      <img class="rounded-t-lg" src="/img/image-1.jpg" alt="" />
-  </a>
-  <div class="p-5">
-      <a href="#">
-          <h5 class=" mb-2 text-2xl md:text-md lg:text-md font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-      </a>
-      <h6 class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</h6>
-      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          Read more
-          <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-      </a>
-  </div>
-</div>
-<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-  <a href="#">
-      <img class="rounded-t-lg" src="/img/image-1.jpg" alt="" />
-  </a>
-  <div class="p-5">
-      <a href="#">
-          <h5 class=" mb-2 text-2xl md:text-md lg:text-md font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-      </a>
-      <h6 class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</h6>
-      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          Read more
-          <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-      </a>
-  </div>
-</div>
 
-
-</div>
-</div>       
-          <!--Mentorship-->
-          <!-- <div class="mentor-ship bg-white flex justify-center items-center h-[100vh] w-full border-4">
-            
-            <div class="w-[90%] h-[80%] border-4 border-blue-400">
-              <div class="bg-red-400 h-[50%] flex">
-                <div class="w-[50%] border-4">
-                  <h6>Direct Access to mentorhip</h6>
-                  <span>
-                    Significantly increase your learning speed by direct access to mentorship, 
-                    get directives from your mentor and avoid pitfalls. Join Live debugging sessions, 
-                    Direct Q&A  to help clarify complex concepts.
-                  </span>
-                </div>
-                <div class="w-[50%] border-4">
-                  img
-                </div>
-              </div>
-              <div class="bg-red-800 h-[50%] flex">
-                <div class="w-[50%] border-4">
-                  img
-                </div>
-                <div class="w-[50%] border-4">
-                  <h6>Direct Access to mentorhip</h6>
-                  <span>
-                    Significantly increase your learning speed by direct access to mentorship, 
-                    get directives from your mentor and avoid pitfalls. Join Live debugging sessions, 
-                    Direct Q&A  to help clarify complex concepts.
-                  </span>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>       
+          <!--about-->
+          <div class="about flex justify-center items-center h-[350vh] md:h-[100vh] lg:h-[100vh] w-full bg-white">
+            <div class="w-[90%] h-[80%] flex justify-center items-center">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 flex items-center justify-center">
+                <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
+                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
+                    <i class="fa-solid fa-wallet"></i>
+                  </div>
+                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  </span>
+                  <div class="border-4 w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  </div>
+                </div>
+                <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
+                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
+                    <i class="fa-solid fa-wallet"></i>
+                  </div>
+                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  </span>
+                  <div class="border-4 w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  </div>
+                </div>
+                <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
+                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
+                    <i class="fa-solid fa-wallet"></i>
+                  </div>
+                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  </span>
+                  <div class="border-4 w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  </div>
+                </div>
+                <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
+                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
+                    <i class="fa-solid fa-wallet"></i>
+                  </div>
+                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  </span>
+                  <div class="border-4 w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  </div>
+                </div>                
+            </div>
+          </div>
+        </div>
+          <div class="Google-form bg-green-400 flex justify-center items-center h-[100vh] w-full border-4">
+          <div class="w-[90%] h-[80%] border-4 border-blue-400">
+            <div>
+              <div class="flex flex-wrap border-4 h-[40vh]">
+                <div class="border-4 w-[50%]">
+                  direct mentorship
+                </div>              
+                <div class="border-4 w-[50%]">
+                  direct mentorship
+                </div>              
+                            
+              </div>
+              <div class="flex border-4 h-[40vh]">
+                <div class="border-4 w-[50%]">
+                  direct mentorship
+                </div>              
+                <div class="border-4 w-[50%]">
+                  direct mentorship
+                </div>     
+              </div>
+            </div>
+          </div>
+        </div>
           <!--Google forms-->
         <!-- <div class="Google-form bg-white flex justify-center items-center h-[100vh] w-full border-4">
           <div class="w-[90%] h-[80%] border-4 border-blue-400">
@@ -269,7 +310,7 @@
         <div class="footer flex justify-center items-center h-[60vh] w-full">
           <div class="w-[90%] h-[80%] border-4 border-blue-400">
           </div>
-        </div> -->
+        </div> 
         <!--last div-->
     </div> 
     <!-- javascript -->
