@@ -299,7 +299,7 @@ cursor: pointer; */
   background-color: #252525;
 }
 .circle {
-  background-color: #50eaf5;
+  background: #373af7;
   /* animation: bounce 2s ease-in-out infinite; */
 }
 
@@ -327,6 +327,11 @@ cursor: pointer; */
 }
 
 .about i {
-  font-size: 200px;
+  font-size: 150px;
   color: #373af7;
+}
+
+.footer i {
+  font-size: 16px;
+  width: 20px;
 }

@@ -7,6 +7,7 @@
     <!-- font-awesome -->
     <link
       rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+      
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- styles -->
@@ -23,11 +24,17 @@
                     </span>
                     <span class="nav-link">
                       <ul class="flex justify-end">
-                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#">Courses</a></li>
-                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#">About</a></li>
-                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#">Contact</a></li>
-                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#">Portfolio</a></li>                      
-                        <li class="px-4 flex items-center"><a href="#"><button class="bg-blue-400 rounded-xl p-2 outline-offset-2 outline-4 ">Enroll now</bUtton></a></li>                      
+                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#courses">Courses</a></li>
+                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#about">About</a></li>
+                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="#contact">Contact</a></li>
+                        <li class="px-4 hover:border-blue-400 border-b-4 border-transparent "><a href="https://xenxei46-github-io.vercel.app/">my projects</a></li>                      
+                        <li class="px-4 flex items-center">
+                          <a href="https://forms.gle/jBkGaGAfgGRKSJQKA" 
+                          class=" inline-flex items-center px-2 py-1 text-sm text-center text-white 
+                          bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none 
+                          focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          Enroll now 
+                        </a></li>                      
                       </ul>
                     </span>
                     <button class="sidebar-toggle md:hidden lg:hidden border-4 w-full flex justify-end ">
@@ -93,19 +100,21 @@
                   
                 </div>
               </div>
-              <div class="absolute mt-[130%] flex items-center"><a href="#">
-                <button 
-                  class="bg-blue-600 rounded-xl p-2 outline-offset-2 outline-4 md:hidden lg:hidden xl:hidden ">
-                 Enroll now
-                </bUtton></a>
+              <div class="absolute mt-[130%] flex items-center">
+                 <a href="#" 
+                          class=" inline-flex items-center px-2 py-1 text-sm text-center text-white 
+                          bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none 
+                          focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:hidden lg:hidden xl:hidden">
+                          Enroll now 
+                        </a></li>  
               </div> 
            </div>
            <!--courses-->
-          <div class="courses flex justify-center items-center h-[220vh] md:h-[100vh] lg:h-[100vh] w-full">
+          <div class="courses flex justify-center items-center h-[220vh] md:h-[100vh] lg:h-[100vh] w-full" id="courses">
             <div class="w-[90%] md:w-[95%] h-[80%] ">
-              <div class="bg-blue-400 flex justify-center w-full ">  
-                <div class="w-[90%]">
-                  <h1 class="text-3xl" >All Courses</h1>
+              <div class=" flex justify-center w-full ">  
+                <div class="w-[90%] flex justify-center items-center">
+                  <h1 class="text-xl" >All Courses</h1>
                 </div>           
               </div>
                <div class="grid w-full h-full flex items-center justify-center">
@@ -187,8 +196,8 @@
                   </div>
                   <div class="bg-slate-300 h-[60vh] w-[80vw] md:h-[40%] md:w-[30vw] lg:h-[80%] lg:w-[24vw] xl:h-[80%] xl:w-[20vw] rounded-3xl ">
                     <div class="flex justify-center  bg-red-400 w-full">
-                      <div class="h-32 w-32 md:h-28 md:w-28 lg:h-32 lg:w-32 bg-orange-400 rounded-full border-4 mt-[14vh] md:mt-[5vh] lg:mt-[8vh] xl:mt-[16vh] z-10 absolute">
-                        <img src="/img/html.png" class="object-cover  absolute"/>
+                      <div class="h-32 w-32 md:h-28 md:w-28 lg:h-32 lg:w-32 bg-yellow-400 rounded-full border-4 mt-[14vh] md:mt-[5vh] lg:mt-[8vh] xl:mt-[16vh] z-10 absolute">
+                        <img src="/img/js.jpeg" class="object-cover  absolute"/>
                       </div>
                     </div>
                 
@@ -228,87 +237,68 @@
             </div>
           </div>       
           <!--about-->
-          <div class="about flex justify-center items-center h-[350vh] md:h-[100vh] lg:h-[100vh] w-full bg-white">
+          <div class="about flex justify-center items-center h-[350vh] md:h-[100vh] lg:h-[100vh] w-full bg-white" id="about">
             <div class="w-[90%] h-[80%] flex justify-center items-center">
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 flex items-center justify-center">
                 <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
-                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
-                    <i class="fa-solid fa-wallet"></i>
+                  <div class=" w-full h-[60%] flex justify-center items-center">
+                    <i class="fas fa-money-check-alt"></i>
                   </div>
-                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
+                  <span class=" w-full h-[10%] flex justify-center items-start">
                     <h1 class="text-3xl text-black font-medium ">Affordable</h1>
                   </span>
-                  <div class="border-4 w-full h-[20%] ">
-                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  <div class=" w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md"> Learn a skill that is internationally accepted at an affordable price for as low as $90. </h6>
                   </div>
                 </div>
                 <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
-                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
-                    <i class="fa-solid fa-wallet"></i>
+                  <div class=" w-full h-[60%] flex justify-center items-center">
+                    <i class="fas fa-hourglass-half"></i>
                   </div>
-                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
-                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  <span class=" w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Flexible</h1>
                   </span>
-                  <div class="border-4 w-full h-[20%] ">
-                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  <div class=" w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">Learn on a flexible schedule, on both weekdays and week ends and master your skill in 1-2months</h6>
                   </div>
                 </div>
                 <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
-                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
-                    <i class="fa-solid fa-wallet"></i>
+                  <div class=" w-full h-[60%] flex justify-center items-center">
+                    <i class="fas fa-cog"></i>
+
                   </div>
-                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
-                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  <span class=" w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Practical</h1>
                   </span>
-                  <div class="border-4 w-full h-[20%] ">
-                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  <div class=" w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">Building projects is the most relaible way to learn to code, Participate in pratical coding sessions and build realisiic projects. </h6>
                   </div>
                 </div>
                 <div class="w-[80vw] h-[80vh] md:h-[40vh] md:w-[40vw] lg:w-[20vw] lg:h-[80vh] px-2">
-                  <div class="border-4 w-full h-[60%] flex justify-center items-center">
-                    <i class="fa-solid fa-wallet"></i>
+                  <div class=" w-full h-[60%] flex justify-center items-center">
+                    <i class="fas fa-user-graduate"></i>
                   </div>
-                  <span class="border-4 w-full h-[10%] flex justify-center items-start">
-                    <h1 class="text-3xl text-black font-medium ">Affordable</h1>
+                  <span class=" w-full h-[10%] flex justify-center items-start">
+                    <h1 class="text-3xl text-black font-medium ">Mentorship</h1>
                   </span>
-                  <div class="border-4 w-full h-[20%] ">
-                    <h6 class="text-center text-black text-md">Get a glimpse of a Nexford degree program for a fraction of the cost – from $90. </h6>
+                  <div class=" w-full h-[20%] ">
+                    <h6 class="text-center text-black text-md">All World class students where groomed by a mentor, the easiest way to fast pace your growth is to learn from a mentor</h6>
                   </div>
                 </div>                
             </div>
           </div>
         </div>
-          <div class="Google-form bg-green-400 flex justify-center items-center h-[100vh] w-full border-4">
-          <div class="w-[90%] h-[80%] border-4 border-blue-400">
+      
+        <div class="footer flex justify-center items-center h-[60vh] w-full" id="contact">
+          <div class="w-[90%] h-[80%] border-2 border-blue-400 flex flex-col justify-center items-center center">
             <div>
-              <div class="flex flex-wrap border-4 h-[40vh]">
-                <div class="border-4 w-[50%]">
-                  direct mentorship
-                </div>              
-                <div class="border-4 w-[50%]">
-                  direct mentorship
-                </div>              
-                            
-              </div>
-              <div class="flex border-4 h-[40vh]">
-                <div class="border-4 w-[50%]">
-                  direct mentorship
-                </div>              
-                <div class="border-4 w-[50%]">
-                  direct mentorship
-                </div>     
-              </div>
+              <a href="https://github.com/xenxei46"><i class="fab fa-github-alt"></i></a>
+              <a href="https://www.facebook.com/wisdom.johnikoi/"><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-telegram"></i></a>
             </div>
-          </div>
-        </div>
-          <!--Google forms-->
-        <!-- <div class="Google-form bg-white flex justify-center items-center h-[100vh] w-full border-4">
-          <div class="w-[90%] h-[80%] border-4 border-blue-400">
-            forms
-          </div>
-        </div>
-        <div class="footer flex justify-center items-center h-[60vh] w-full">
-          <div class="w-[90%] h-[80%] border-4 border-blue-400">
+            <h2>© 2023 xenxei46. All rights reserved</h2>
           </div>
         </div> 
         <!--last div-->
